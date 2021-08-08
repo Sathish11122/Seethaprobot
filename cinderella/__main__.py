@@ -184,7 +184,7 @@ def send_start(bot, update):
 
     keyboard = [[InlineKeyboardButton(text="Help🤗",callback_data="help_back"),InlineKeyboardButton(text="Founder👿",url="https://t.me/sthish420_paiyan")]]
     keyboard += [[InlineKeyboardButton(text="Connect Group😇", callback_data="main_connect"),InlineKeyboardButton(text="Add Me😌",url="t.me/{}?startgroup=true".format(bot.username))]]
-    keyboard += [[InlineKeyboardButton(text="Youtube🥰",url=" https://youtube.com/channel/UCz9l3DgBXC32rlPZtVzpNiw),InlineKeyboardButton(text="Insta😍",url="https://instagram.com/mr_sathish_007_?utm_medium=copy_link")]]
+    keyboard += [[InlineKeyboardButton(text="Youtube🥰",url="https://youtube.com/channel/UCz9l3DgBXC32rlPZtVzpNiw"),InlineKeyboardButton(text="Insta 😍",url="https://instagram.com/mr_sathish_007_?utm_medium=copy_link")]]
 
     update.effective_message.reply_photo(img, PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_NAME, OWNER_ID), 
                                          reply_markup=InlineKeyboardMarkup(keyboard), disable_web_page_preview=True, parse_mode=ParseMode.MARKDOWN)
