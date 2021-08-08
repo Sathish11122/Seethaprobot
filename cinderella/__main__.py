@@ -182,7 +182,7 @@ def send_start(bot, update):
     first_name = update.effective_user.first_name 
     text = PM_START_TEXT
 
-    keyboard = [[InlineKeyboardButton(text="Help🤗",callback_data="help_back"),InlineKeyboardButton(text="Founder👿",url="https://t.me/sthish420_paiyan")]]
+    keyboard = [[InlineKeyboardButton(text="Help🤗",callback_data="help_back"),InlineKeyboardButton(text="Founder👿",url="https://t.me/sathish420_paiyan")]]
     keyboard += [[InlineKeyboardButton(text="Connect Group😇", callback_data="main_connect"),InlineKeyboardButton(text="Add Me😌",url="t.me/{}?startgroup=true".format(bot.username))]]
     keyboard += [[InlineKeyboardButton(text="Youtube🥰",url="https://youtube.com/channel/UCz9l3DgBXC32rlPZtVzpNiw"),InlineKeyboardButton(text="Insta 😍",url="https://instagram.com/mr_sathish_007_?utm_medium=copy_link")]]
 
